@@ -1,0 +1,18 @@
+{
+  "created": "2020-06-13T09:15:54.064Z",
+  "updated": "2020-06-13T09:15:54.064Z",
+  "rvn": 1,
+  "wipeNumber": 1,
+  "accountId": "aabbccddeeff11223344556677889900",
+  "profileId": "common_public",
+  "version": "fortnite_start",
+  "items": {},
+  "stats": {
+    "attributes": {
+      "banner_color": "defaultcolor17",
+      "homebase_name": "OY BRUV U CANT PLAY YET",
+      "banner_icon": "otherbanner28"
+    }
+  },
+  "commandRevision": 0
+}
