@@ -32,7 +32,7 @@ addhandlerlist=[
 logging.basicConfig(level=logging.DEBUG)
 
 @app.route('/')
-def getroot():return Response('"Ya :D"\n"@pdf114514"', mimetype='application/json')
+def getroot():return Response('"Ya :)"\n"@pdf114514"', mimetype='application/json')
 
 @app.route('/favicon.ico')
 def favicon():return redirect('https://fortnite-api.com/images/cosmetics/br/cid_005_athena_commando_m_default/icon.png')
@@ -99,7 +99,7 @@ app.logger.addHandler(hdlr)
 
 logging_tree.printout()
 
-requests.post('https://discordapp.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={'content':'-----\nStarting...\n*****'})
+requests.post('https://discordapp.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={'content':'\n-----\nStarting...\n*****\n'})
 ###
 
 def news():
@@ -420,6 +420,7 @@ def epicerror(errorCode="errors.com.epicgames", errorMessage=f"{0}, {1}, {2}", f
 class ProfileClass():
     
     def readprofile(accid, profileid):
+        accid='user'
         with open(f'config/{accid}/profiles/profile_{profileid}.json', 'r', encoding='utf-8') as f:
             r=json.load(f)
         return r
