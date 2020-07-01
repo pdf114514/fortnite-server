@@ -1,0 +1,5 @@
+import requests
+import json
+r=requests.get('https://benbotfn.tk/api/v1/cosmetics/br').json()
+with open('benbotfn.json', 'w') as f:
+    json.dump(r, f, indent='\t')

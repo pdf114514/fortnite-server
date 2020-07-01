@@ -1,0 +1,1572 @@
+Traceback (most recent call last):
+  File "_try.py", line 2, in <module>
+    import index
+  File "/app/index.py", line 1050, in <module>
+    main()
+  File "/app/index.py", line 1048, in main
+    app.run(host=host, port=port, threaded=True, debug=True)
+  File "/app/.local/lib/python3.7/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/app/.local/lib/python3.7/site-packages/werkzeug/serving.py", line 1039, in run_simple
+    log_startup(s)
+  File "/app/.local/lib/python3.7/site-packages/werkzeug/serving.py", line 988, in log_startup
+    quit_msg,
+  File "/app/.local/lib/python3.7/site-packages/werkzeug/_internal.py", line 113, in _log
+    getattr(_logger, type)(message.rstrip(), *args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1378, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 659, in urlopen
+    conn = self._get_conn(timeout=pool_timeout)
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 279, in _get_conn
+    return conn or self._new_conn()
+  File "/app/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 941, in _new_conn
+    self.port or "443",
+  File "/usr/lib/python3.7/logging/__init__.py", line 1366, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1514, in _log
+    self.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1524, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 1586, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.7/logging/__init__.py", line 894, in handle
+    self.emit(record)
+  File "/app/index.py", line 46, in emit
+    dlog(self.format(record))
+  File "/app/index.py", line 36, in dlog
+    r=requests.post('https://discord.com/api/webhooks/721137428928397372/KUbCDSg6it1oilCGroaGgE8YmFSeSd6jPPP7_hSNld7YKWfxOvztTlB4ccthxZj3zeUW', json={"content":c})
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/app/.local/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    with sessions.Session() as session:
+  File "/app/.local/lib/python3.7/site-packages/requests/sessions.py", line 367, in __init__
+    self.headers = default_headers()
+  File "/app/.local/lib/python3.7/site-packages/requests/utils.py", line 815, in default_headers
+    'Connection': 'keep-alive',
+  File "/app/.local/lib/python3.7/site-packages/requests/structures.py", line 46, in __init__
+    self.update(data, **kwargs)
+  File "/usr/lib/python3.7/_collections_abc.py", line 833, in update
+    self, *args = args
+RecursionError: maximum recursion depth exceeded while calling a Python object
